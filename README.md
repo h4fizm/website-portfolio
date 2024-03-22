@@ -23,7 +23,7 @@ Hypefolio is a feature-rich portfolio website designed to showcase your projects
 
 ```
 # Clone this repository
-$ git clone https://github.com/harisahmad59/Hypefolio
+$ git clone https://h4fizm.github.io/website-portfolio/
 
 # Go into the repository
 $ cd Hypefolio
