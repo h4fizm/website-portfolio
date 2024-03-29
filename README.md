@@ -1,4 +1,4 @@
-⭐Big Thanks to https://harisahmad.netlify.app to share this cool and web design 
+⭐Big Thanks to https://harisahmad.netlify.app to share this cool web design 
 
 ## Hypefolio 🔥
 
