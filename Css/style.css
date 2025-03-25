@@ -4,7 +4,7 @@
   --header-height: 3rem;
 
   --hue-color: 30; /* Mengubah hue menjadi 30 untuk warna oranye */
-  
+
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -447,7 +447,7 @@ img {
   background: var(--first-color-lighter);
   border-radius: 5px;
   font-weight: 600;
-  color: var(--title-color);
+  color: black;
   transition: 0.3s ease;
 }
 
@@ -825,7 +825,7 @@ img {
 .footer-copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: #808080; /* Warna abu-abu muda */
+  color: #ffffff; /* Warna abu-abu muda */
   margin-top: var(--margin-bottom-0-3);
 }
 
