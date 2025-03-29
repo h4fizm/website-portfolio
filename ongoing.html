@@ -6,6 +6,27 @@
     <title>Website Under Maintenance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="Assets/Icons/testimonial3.png" />
+    <style>
+      :root {
+        --hue-color: 30; /* Mengubah hue menjadi 30 untuk warna oranye */
+        --first-color: hsl(var(--hue-color), 69%, 61%);
+        --first-color-second: hsl(var(--hue-color), 69%, 61%);
+        --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+        --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+      }
+      .btn-primary {
+        background-color: var(--first-color);
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s ease-in-out,
+          transform 0.2s ease-in-out;
+      }
+      .btn-primary:hover {
+        background-color: var(--first-color-alt);
+        transform: scale(1.05);
+      }
+    </style>
   </head>
   <body
     class="bg-gray-100 flex flex-col items-center justify-center h-screen text-center"
@@ -23,10 +44,7 @@
     <div class="mt-4">
       <span class="text-orange-500 font-semibold">Estimated Time : -</span>
     </div>
-    <a
-      href="index.html"
-      class="mt-6 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition"
-    >
+    <a href="index.html" class="btn-primary mt-6 shadow-md">
       Back to home page
     </a>
   </body>
