@@ -18,6 +18,9 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
+  --qualification-active-color: hsl(279, 88.9%, 28.2%);
+  /* Ungu hehehe */
+
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -64,6 +67,7 @@ body.dark-theme {
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
+  --qualification-active-color: hsl(279 88.9% 70%);
   transition: 0.3s ease-in;
 }
 
@@ -526,7 +530,7 @@ img {
 }
 
 .qualification-button.qualification-active {
-  color: #5b0888;
+  color: var(--qualification-active-color);
 }
 
 /* services  */
